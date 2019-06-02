@@ -63,6 +63,11 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+p {
+	line-height: 1.15;
+	padding-right: 5px;
+}
+
 /* Your code starts here! */
 .container {
 	margin: 0 auto;
@@ -90,7 +95,7 @@ h1, h2, h3, h4, h5 {
 
 /* STRUCTURE */
 .half {
-	width: 50%;
+	width: 49%;
 	display: inline-block;
 }
 
@@ -106,7 +111,6 @@ h1, h2, h3, h4, h5 {
 /* HEADER */
 
 .welcome-text {
-	font-size: 0;
 	vertical-align: top;
 }
 
@@ -114,7 +118,7 @@ header h1 {
 	font-size: 75px;
 	text-align: center;
 	margin: 98px 0 0 50px;
-	
+	letter-spacing: 5px;
 }
 
 header button {
@@ -122,9 +126,32 @@ header button {
 	background-color: white;
 	border: 1px solid black;
 	margin: 17px 0 0 150px;
-    padding: 7px 46px;
+	padding: 7px 40px;
+	letter-spacing: 1.1px;
 }
 
 header img {
-	margin: 39px 0 69px 57px;
+	margin: 40px 0 69px 66px;
+}
+
+/* TOP CONTENT */
+
+.top-content {
+	margin: 37px -35px 38px 0;
+}
+
+/* BOTTOM CONTENT */
+
+.bottom-content {
+	margin: 36px -22px 46px 0;
+}
+
+.contact {
+	margin-top: 40px;
+}
+
+footer {
+	font-size: 14px;
+	text-align: center;
+	margin-top: 63px;
 }
