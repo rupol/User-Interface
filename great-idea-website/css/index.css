@@ -84,25 +84,41 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo {
-	position: absolute;
-	right: 513px;
-	top: 26.5px;
+	display: inline-block;
+	margin: 0 0 -10px 58px;
 }
-
 
 /* STRUCTURE */
 .half {
 	width: 49%;
 	display: inline-block;
-	padding: 20px;
 }
 
 .third {
 	width: 33%;
 	display: inline-block;
-	padding: 20px;
 }
 
 .middle-img {
 	width: 100%;
 }
+
+/* HEADER */
+
+header h1 {
+	font-size: 75px;
+	text-align: center;
+	display: inline-block;
+}
+
+header button {
+	font-size: 16px;
+	padding: 8px 50px;
+	margin: 0px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+/* header img {
+	margin: 40px 60px;
+} */
