@@ -76,12 +76,26 @@ p {
 }
 
 /* NAVIGATION */
+.navigation {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 5;
+
+	background-color: rgb(85, 91, 100);
+	text-align: center;
+}
+
 .navigation a {
 	text-decoration: none;
 	color: #C4C4C4;
 	padding: 40px 31.5px;
 	display: inline-block;
 	font-size: 14px;
+}
+
+.navigation a:hover {
+	color: #028ADE;
 }
 
 .navigation a:first-child {
@@ -110,6 +124,10 @@ p {
 
 /* HEADER */
 
+header {
+	margin-top: 100px;
+}
+
 .welcome-text {
 	vertical-align: top;
 }
@@ -128,10 +146,22 @@ header button {
 	margin: 17px 0 0 150px;
 	padding: 7px 40px;
 	letter-spacing: 1.1px;
+	transition: all .2s;
+  	position: relative;
+}
+
+header button:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+header button:active {
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 header img {
-	margin: 40px 0 69px 66px;
+	margin: 40px 0 66px 66px;
 }
 
 /* TOP CONTENT */
