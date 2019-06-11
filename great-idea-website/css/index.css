@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +63,125 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+p {
+	line-height: 1.15;
+	padding-right: 5px;
+}
+
 /* Your code starts here! */
+.container {
+	margin: 0 auto;
+	width: 1024px;
+	padding: 0 75px;
+}
+
+/* NAVIGATION */
+.navigation {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 5;
+
+	background-color: rgb(85, 91, 100);
+	text-align: center;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #C4C4C4;
+	padding: 40px 31.5px;
+	display: inline-block;
+	font-size: 14px;
+}
+
+.navigation a:hover {
+	color: #028ADE;
+}
+
+.navigation a:first-child {
+	padding-left: 0px;
+}
+
+.logo {
+	display: inline-block;
+	margin: 0 0 -10px 58px;
+}
+
+/* STRUCTURE */
+.half {
+	width: 49%;
+	display: inline-block;
+}
+
+.third {
+	width: 33%;
+	display: inline-block;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+/* HEADER */
+
+header {
+	margin-top: 100px;
+}
+
+.welcome-text {
+	vertical-align: top;
+}
+
+header h1 {
+	font-size: 75px;
+	text-align: center;
+	margin: 98px 0 0 50px;
+	letter-spacing: 5px;
+}
+
+header button {
+	font-size: 16px;
+	background-color: white;
+	border: 1px solid black;
+	margin: 17px 0 0 150px;
+	padding: 7px 40px;
+	letter-spacing: 1.1px;
+	transition: all .2s;
+  	position: relative;
+}
+
+header button:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+header button:active {
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+	margin: 40px 0 66px 66px;
+}
+
+/* TOP CONTENT */
+
+.top-content {
+	margin: 37px -35px 38px 0;
+}
+
+/* BOTTOM CONTENT */
+
+.bottom-content {
+	margin: 36px -22px 46px 0;
+}
+
+.contact {
+	margin-top: 40px;
+}
+
+footer {
+	font-size: 14px;
+	text-align: center;
+	margin: 63px 0 100px;
+}
